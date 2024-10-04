@@ -9,3 +9,9 @@ class Solution(object):
                 profit= prices[i]-buy   
 
         return profit
+    
+prices = [7, 1, 5, 3, 6, 4]
+solution = Solution()
+result = solution.maxProfit(prices)
+
+print("Max profit:", result)    
